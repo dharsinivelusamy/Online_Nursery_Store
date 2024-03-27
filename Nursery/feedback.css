@@ -1,0 +1,72 @@
+
+  body {
+    background-image: url("backgroundimg1.jpg");
+    color: rgb(172, 69, 119);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+.box{
+  background-color: pink;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.btn{
+  background-color: rgb(172, 65, 142);
+}
+
+.btn:hover{
+background-color: palevioletred;
+color: rgb(237, 247, 43);
+width: 130%;
+height: 15%;
+cursor: pointer;
+}
+
+  h1,
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  .app {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }

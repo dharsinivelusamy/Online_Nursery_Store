@@ -1,0 +1,17 @@
+.navbar {
+  background-image: url("feedbackpic1.jpeg");
+  background-size: cover;
+}
+
+.navbar-header{
+  color:white;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
